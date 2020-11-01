@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="static/css/style_math.css">
+    <title>Математика</title>
+</head>
+<body>
+    <h1>Посчитаем</h1>
+    <ol>
+        <li>
+            <label for="word">Введите слово</label>
+            <input type = "text" name="Word" id = "word" value =  "">
+            <button onclick="func1()">Нажми на меня</button>
+            <p id="p1">Слово</p>
+        </li>
+        <li>
+            <label>Введите числа</label>
+            <input type = "number" name="Num1" id = "num1" value =  "">
+            <input type = "number" name="Num2" id = "num2" value =  "">
+            <button onclick="func2()">Нажми на меня</button>
+            <p id="p2">Сумма</p>
+        </li>
+        <li>
+            <label>Введите числа через пробел</label>
+            <input type = "text" name="Num1" id = "arr" value =  "">
+            <button onclick="func3()">Нажми на меня</button>
+            <p id="p3">Массив</p>
+        </li>
+    </ol>
+    <input value="Вернуться назад" class="c-button" type="button" onclick="location.href='/'" />
+</body>
+    <script src="static/js/math.js"></script>
+</html>

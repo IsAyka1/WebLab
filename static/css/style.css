@@ -1,0 +1,62 @@
+html {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
+span {
+    background: #DA70D6;
+}
+#name {
+    text-align: center;
+    font-family: "Century Gothic", serif;
+    font-weight: bold;
+}
+body {
+    padding: 40px;
+    background: #DA70D6 url("../source/background.jpg") fixed;
+    background-size: cover;
+}
+#photo {
+    float: right;
+    margin-right: 55px;
+    width: 25%;
+    outline: 2px solid;
+    outline-color: rgb(255, 0, 0);
+    //outline-width: 2px;
+}
+ul {
+    display: inline-block;
+    background: #DA70D6;
+    text-align: left;
+    width: 400px;
+}
+.c-button {
+    background: #ff418e;
+    font-size: 20px;
+}
+.c-button:hover {
+    background: #ff4b46;
+}
+.c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #ff7f6f;
+}
+.s-button {
+    background: #6f5edd;font-size: 20px;
+}
+.s-button:hover {
+    background: #ba7ff5;
+}
+.s-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #a682cf;
+}
+.p-button {
+    background: #d4315e;font-size: 20px;
+}
+.p-button:hover {
+    background: #ab4478;
+}
+.p-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #d7588b;
+}

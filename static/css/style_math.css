@@ -1,0 +1,19 @@
+body {
+    background-color: #ffcddc;
+    font-size: 20px;
+    margin-left: 55px;
+}
+h1 {
+    text-align: center;
+}
+.c-button {
+    background: #ff418e;
+    font-size: 20px;
+}
+.c-button:hover {
+    background: #ff4b46;
+}
+.c-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #ff7f6f;
+}
